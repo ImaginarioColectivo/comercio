@@ -1,0 +1,142 @@
+/* letras #494949*/
+* {
+  font-family: 'Sofadi One', cursive;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.espejo {
+  background-image: url(../img/espejo.jpg);
+  height: 27em;
+background-size: cover;
+}
+.mansion {
+  background-image: url(../img/mansion-luigi.jpg);
+  background-size: cover;
+  height: 27em;
+}
+.carcasa {
+  background-image: url(../img/carcasa.jpg);
+  background-size: cover;
+  height: 27em;
+}
+.ball {
+  background-image: url(../img/ball-balance.jpg);
+  background-size: cover;
+  height: 27em;
+}
+#titleDecoration {
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.shipping{
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+}
+
+.p-shipping{
+  color: white;
+  margin-top: 0.6em;
+}
+
+.p-shipping:hover{
+  color: teal;
+}
+.logo {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 19em;
+}
+ #custom-search-input{
+  margin-top: 1em;
+  border: solid 0.2em #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#custom-search-input input{
+  border: 0;
+  box-shadow: none;
+}
+
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input .fa-search{
+  font-size: 23px;
+}
+
+.registry{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.optionMenu{
+  margin-top:0.5em;
+  font-size: 15px;
+  display: inline-block;
+}
+.menu-desktop{
+  color: #fff;
+}
+
+
+button{
+  margin-top: 0.4em;
+  background-color: black;
+}
+
+.option{
+  font-weight: bolder;
+  margin-top:0.5em;
+    color: grey;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.option-desktop{
+  color: #494949;
+}
+li:hover{
+  color: teal;
+}
+
+li+li:before {
+  content: "|";
+  padding: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+
+.app {
+  text-align: center;
+  align-content: center;
+}
